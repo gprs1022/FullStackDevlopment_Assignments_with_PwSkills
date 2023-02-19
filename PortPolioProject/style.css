@@ -3,7 +3,7 @@
     margin:0;
     padding:0;
     overflow: hidden;
-    border-bottom: border-box;
+    
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -100,10 +100,10 @@ input{
     font-size: 2.5 rem;
 }
 .hero-section-left p{
+   font-weight: 500;
 
-    font-weight: 500;
 
-}
+ }
 .hero-section-left p span{
     font-weight: 700;
     font-size: 25px;
