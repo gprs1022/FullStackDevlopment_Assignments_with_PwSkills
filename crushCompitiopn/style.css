@@ -1,0 +1,106 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    font-family: sans-serif;
+
+}
+
+nav {
+
+    padding: 20px;
+    height: 15vh;
+}
+
+nav ul {
+
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul li button{
+
+    
+ align-items: end;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(78, 72, 155);
+    border-radius: 10px;
+
+}
+
+nav ul li {
+
+    list-style: none;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+nav ul li img{
+    width: 100px;
+}
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+
+}
+
+.hero-section-left{
+
+    width: 40%;
+}
+
+.hero-section-left h1 {
+
+ font-size: 50px;
+ color: rgb(86, 55, 173);
+}
+
+.hero-section-left h1 span{
+
+    font-size: 55px;
+ color: rgb(80, 115, 211);
+}
+
+.hero-section-left p{
+
+    padding: 15px 5px;
+}
+
+.hero-section-left button{
+
+    padding: 15px 20px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(78, 72, 155);
+    border-radius: 10px;
+}
+
+.hero-section-left button:hover{
+    background-color: black;
+}
+
+.hero-section-right img{
+
+    width: 600px;
+    height: 500px;
+}
